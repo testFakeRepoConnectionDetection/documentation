@@ -2,7 +2,7 @@ package fixture.flow;
 
 /**
  * Edge attributes on Documentation flows.
- * grep: data frequency trade cashflow real-time
+ * grep: data frequency trade cashflow real-time monthly Finance
  */
 public final class TransitDataTypes {
 
@@ -15,6 +15,7 @@ public final class TransitDataTypes {
   public static final String DATA_TRADE = "trade";
   public static final String DATA_CASHFLOW = "cashflow";
   public static final String FREQUENCY_REAL_TIME = "real-time";
+  public static final String FREQUENCY_MONTHLY = "monthly";
 
   private TransitDataTypes() {}
 }

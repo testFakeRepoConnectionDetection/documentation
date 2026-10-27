@@ -5,6 +5,14 @@ app:
   flow-enrichment:
     data-field: data
     frequency-field: frequency
+  integrations:
+    finance:
+      base-url: https://finance.internal/api/v1/confirmations
+      target-application: Finance
+      connection-kind: API
+      channel: /api/v1/confirmations
+      data: trade
+      frequency: monthly
   api:
     confirmations:
       path: /api/v1/confirmations
