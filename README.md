@@ -1,5 +1,7 @@
 # Documentation (fixture)
 
+Implemented in C++.
+
 Business function: `BACK_OFFICE` (`app.business_function`).
 Pillar: `Trade Processing` (`app.pillar`).
 
@@ -19,4 +21,4 @@ Trade documentation.
 | Settlement | API (inbound) | /api/v1/cashflows | `cashflow` | `real-time` |
 | Finance | API (outbound) | /api/v1/confirmations | `trade` | `monthly` |
 
-See `TransitDataTypes.java` and `application.yml` (`data`, `frequency`).
+See `src/flows.hpp` and `application.yml` (`data`, `frequency`).
